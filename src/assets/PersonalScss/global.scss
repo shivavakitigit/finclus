@@ -1,0 +1,17 @@
+.mycustom {
+  border: 3px solid black;
+  position: relative;
+  height: 5rem;
+}
+.mycustom input[type="text"] {
+  border: none;
+  width: 100%;
+  padding-right: 123px;
+}
+.mycustom .input-group-prepend {
+  position: absolute;
+  right: 4px;
+  top: 4px;
+  bottom: 4px;
+  z-index: 9;
+}

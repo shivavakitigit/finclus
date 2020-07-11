@@ -1,0 +1,71 @@
+.email-wrapper--1O1Zv {
+  padding-bottom: 50px;
+}
+
+.sr-only--2G0SV {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.email--1FCId {
+  background: #fff;
+  border-radius: 100px;
+  padding: 12px 182px 13px 23px;
+  -webkit-transition: all 0.08s linear;
+  transition: all 0.08s linear;
+  border: 1px solid transparent;
+  -webkit-box-shadow: 5px 5px 30px rgba(48, 95, 129, 0.15);
+  box-shadow: 5px 5px 30px rgba(48, 95, 129, 0.15);
+  font-size: 15px;
+  font-family: sofia-pro, sans-serif;
+  width: 126%;
+}
+
+.btn--disabled--D4hq6,
+.btn--OUP-0:disabled {
+  opacity: 0.8;
+  cursor: auto;
+}
+
+.submit-btn--1cscR {
+  margin: 0 0 0 -182px;
+}
+
+.btn--sm--3VaIL {
+  padding-top: 9px;
+  padding-bottom: 9px;
+}
+
+.btn--primary--1Lgtq {
+  background: #6067f1;
+}
+
+.btn--OUP-0 {
+  display: inline-block;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: none;
+  color: #fff;
+  line-height: 1.4;
+  font-size: 13px;
+  font-family: sofia-pro, sans-serif;
+  text-decoration: none;
+  padding: 13px 23px;
+  
+  letter-spacing: 1px;
+  font-weight: 700;
+  border-radius: 100px;
+  -webkit-box-shadow: rgba(52, 55, 68, 0.06) 0 11px 30px;
+  box-shadow: 0 11px 30px rgba(52, 55, 68, 0.06);
+  margin: 8px;
+}
+
+label {
+  color: #6e6f88 !important;
+}
