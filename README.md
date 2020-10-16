@@ -1,6 +1,5 @@
 ## Quick start
 
-- [Download from Github](https://github.com/shivavakitigit/finclus).
 - Clone the repo: `git clone https://github.com/shivavakitigit/finclus.git`.
 
 
