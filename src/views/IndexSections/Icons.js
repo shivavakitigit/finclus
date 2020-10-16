@@ -1,20 +1,4 @@
-/*!
 
-=========================================================
-* Argon Design System React - v1.1.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/argon-design-system-react
-* Copyright 2020 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/argon-design-system-react/blob/master/LICENSE.md)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
 import React from "react";
 
 // reactstrap components
@@ -38,7 +22,6 @@ class Icons extends React.Component {
                 <div className="btn-wrapper">
                   <Button
                     color="primary"
-                    href="https://demos.creative-tim.com/argon-design-system-react/#/documentation/icons?ref=adsr-landing-page"
                   >
                     View demo icons
                   </Button>
@@ -54,7 +37,6 @@ class Icons extends React.Component {
               </Col>
             </Row>
             <div className="blur--hover">
-              <a href="https://demos.creative-tim.com/argon-design-system-react/#/documentation/icons?ref=adsr-landing-page">
                 <div className="icons-container blur-item mt-5 on-screen">
                   <i className="icon ni ni-diamond" />
                   <i className="icon icon-sm ni ni-album-2" />
@@ -73,7 +55,6 @@ class Icons extends React.Component {
                 <span className="blur-hidden h5 text-success">
                   Eplore all the 21.000+ Nucleo Icons
                 </span>
-              </a>
             </div>
           </Container>
         </section>

@@ -1,5 +1,5 @@
 import React from "react";
-import "../../views/examples/AboutUs.scss";
+import "../../views/MainView/AboutUs.scss";
 // reactstrap components
 import { Button, Card, Container, Row, Col } from "reactstrap";
 // core components
@@ -7,7 +7,7 @@ import DemoNavbar from "components/Navbars/DemoNavbar.js";
 import SimpleFooter from "components/Footers/SimpleFooter.js";
 import StepperComponent from "components/Stepper/Stepper";
 import "../../assets/PersonalScss/global.scss";
-import "../examples/ContactUs.scss";
+import "../MainView/ContactUs.scss";
 import { Link } from "react-router-dom";
 
 

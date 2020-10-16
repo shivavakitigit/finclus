@@ -57,7 +57,6 @@ class CardsFooter extends React.Component {
                 <Button
                   className="btn-icon-only rounded-circle"
                   color="twitter"
-                  href="https://twitter.com/creativetim"
                   id="tooltip475038074"
                   target="_blank"
                 >
@@ -71,7 +70,6 @@ class CardsFooter extends React.Component {
                 <Button
                   className="btn-icon-only rounded-circle ml-1"
                   color="facebook"
-                  href="https://www.facebook.com/creativetim"
                   id="tooltip837440414"
                   target="_blank"
                 >
@@ -85,7 +83,6 @@ class CardsFooter extends React.Component {
                 <Button
                   className="btn-icon-only rounded-circle ml-1"
                   color="dribbble"
-                  href="https://dribbble.com/creativetim"
                   id="tooltip829810202"
                   target="_blank"
                 >
@@ -99,7 +96,6 @@ class CardsFooter extends React.Component {
                 <Button
                   className="btn-icon-only rounded-circle ml-1"
                   color="github"
-                  href="https://github.com/creativetimofficial"
                   id="tooltip495507257"
                   target="_blank"
                 >
@@ -118,10 +114,8 @@ class CardsFooter extends React.Component {
                 <div className="copyright">
                   © {new Date().getFullYear()}{" "}
                   <a
-                    href="https://www.creative-tim.com?ref=adsr-footer"
                     target="_blank"
                   >
-                    Creative Tim
                   </a>
                   .
                 </div>
@@ -130,15 +124,12 @@ class CardsFooter extends React.Component {
                 <Nav className="nav-footer justify-content-end">
                   <NavItem>
                     <NavLink
-                      href="https://www.creative-tim.com?ref=adsr-footer"
                       target="_blank"
                     >
-                      Creative Tim
                     </NavLink>
                   </NavItem>
                   <NavItem>
                     <NavLink
-                      href="https://www.creative-tim.com/presentation?ref=adsr-footer"
                       target="_blank"
                     >
                       About Us
@@ -146,7 +137,6 @@ class CardsFooter extends React.Component {
                   </NavItem>
                   <NavItem>
                     <NavLink
-                      href="http://blog.creative-tim.com?ref=adsr-footer"
                       target="_blank"
                     >
                       Blog
@@ -154,7 +144,6 @@ class CardsFooter extends React.Component {
                   </NavItem>
                   <NavItem>
                     <NavLink
-                      href="https://github.com/creativetimofficial/argon-design-system-react/blob/master/LICENSE.md"
                       target="_blank"
                     >
                       MIT License

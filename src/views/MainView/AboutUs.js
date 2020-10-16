@@ -1,5 +1,5 @@
 import React from "react";
-import "../../views/examples/AboutUs.scss";
+import "../../views/MainView/AboutUs.scss";
 // reactstrap components
 import { Button, Card, Container, Row, Col } from "reactstrap";
 

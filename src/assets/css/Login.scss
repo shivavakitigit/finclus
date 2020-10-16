@@ -1,0 +1,62 @@
+.backgroundCss {
+  background: rgb(2, 128, 144);
+}
+
+label {
+  color: white !important;
+  background-color: rgba(0, 0, 0, 0) !important;
+  font-family: sans-serif;
+  font-size: 14px;
+  line-height: 18.4px;
+  vertical-align: baseline;
+  letter-spacing: normal;
+  word-spacing: 0px;
+  margin: 0px;
+  padding: 0px;
+  font-weight: 400;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  text-decoration: none solid rgb(0, 0, 0);
+  text-align: start;
+  text-indent: 0px;
+  position: relative;
+  left: 3rem;
+  bottom: 5px;
+}
+
+.line {
+    width: 53px;
+    height: 0;
+    border: 1px solid #C4C4C4;
+    margin: 3px;
+    display:inline-block;
+  }
+.w-g {
+  width: 22rem !important;
+}
+
+.w-p {
+  width: 22rem !important;
+  position: relative;
+  top: 1rem;
+}
+
+h4 {
+  display: flex;
+  flex-direction: row;
+}
+
+
+h4:before,
+h4:after {
+content: "";
+/* flex: 1 1; */
+border-bottom: 1px solid #fff;
+margin: 20px 4px 13px 4px;
+font-size: 20px !important;
+display: inline-block;
+width: 166px;
+position: relative;
+left: 47px;
+}

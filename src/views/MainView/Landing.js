@@ -77,7 +77,7 @@ class Landing extends React.Component {
                               system
                             </Badge>
                             <Badge color="primary" pill className="mr-1">
-                              creative
+                              Finclus
                             </Badge>
                           </div>
                           <Button

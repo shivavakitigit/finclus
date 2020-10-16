@@ -5,14 +5,16 @@ import "assets/vendor/nucleo/css/nucleo.css";
 import "assets/vendor/font-awesome/css/font-awesome.min.css";
 import "assets/scss/argon-design-system-react.scss?v1.1.0";
 import Index from "views/Index.js";
-import Landing from "views/examples/Landing.js";
-import Login from "views/examples/Login.js";
-import AboutUs from "views/examples/AboutUs.js";
-import Register from "views/examples/Register.js";
-import CareerPage from "views/examples/CareerPage";
+import Landing from "views/MainView/Landing.js";
+import Login from "views/MainView/Login.js";
+import AboutUs from "views/MainView/AboutUs.js";
+import Register from "views/MainView/Register.js";
+import CareerPage from "views/MainView/CareerPage";
 import StepperComponent from "././components/Stepper/Stepper";
-import ContactUs from "views/examples/ContactUs";
-import ThanksApplication from "views/examples/ThankqApplication";
+import ContactUs from "views/MainView/ContactUs";
+import ThanksApplication from "views/MainView/ThankqApplication";
+import PhoneButton from "components/PhoneAuth/PhoneButton.jsx";
+import firebase from "./firebase.js";
 
 ReactDOM.render(
   <BrowserRouter>
@@ -23,11 +25,7 @@ ReactDOM.render(
         exact
         render={(props) => <Landing {...props} />}
       />
-      <Route
-        path="/login-page"
-        exact
-        render={(props) => <Login {...props} />}
-      />
+      <Route path="/login" exact render={(props) => <Login {...props} />} />
       <Route
         path="/about-page"
         exact
@@ -54,6 +52,11 @@ ReactDOM.render(
         path="/thankq-page"
         exact
         render={(props) => <ThanksApplication {...props} />}
+      />
+      <Route
+        path="/phone-button-page"
+        exact
+        render={(props) => <PhoneButton {...props} />}
       />
       <Redirect to="/" />
     </Switch>

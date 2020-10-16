@@ -5,29 +5,16 @@
 
 
 ## File Structure
-Within the download you'll find the following directories and files:
-
-```
-Argon Design System React
 .
-├── CHANGELOG.md
-├── ISSUE_TEMPLATE.md
-├── LICENSE
 ├── README.md
 ├── jsconfig.json
 ├── package.json
-├── Documentation
-│   └── documentation.html
 ├── public
 │   ├── favicon.ico
 │   ├── index.html
 │   └── manifest.json
 └── src
     ├── assets
-    │   ├── css
-    │   │   ├── argon-design-system-react.css
-    │   │   ├── argon-design-system-react.css.map
-    │   │   └── argon-design-system-react.min.css
     │   ├── img
     │   │   ├── brand
     │   │   ├── icons
@@ -35,7 +22,6 @@ Argon Design System React
     │   │   ├── ill
     │   │   └── theme
     │   ├── scss
-    │   │   ├── argon-design-system-react.scss
     │   │   ├── bootstrap
     │   │   │   ├── mixins
     │   │   │   └── utilities

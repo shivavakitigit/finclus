@@ -110,7 +110,7 @@ class DemoNavbar extends React.Component {
                       target="_blank"
                     >
                       <span
-                        to="/login-page"
+                        to="/login"
                         tag={Link}
                         style={{
                           display: "inline-block",
